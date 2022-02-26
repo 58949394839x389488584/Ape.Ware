@@ -1,3 +1,18 @@
+--[[
+
+                     o           8        8 
+                                 8        8 
+o    o .oPYo. odYo. o8 .oPYo.    8 .oPYo. 8 
+Y.  .P .oooo8 8' `8  8 Yb..      8 8    8 8 
+`b..d' 8    8 8   8  8   'Yb.    8 8    8 8 
+ `YP'  `YooP8 8   8  8 `YooP' 88 8 `YooP' 8 
+::...:::.....:..::..:..:.....:..:..:.....:..
+::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::
+
+--]]
+
+
 local L_1_ = "t"
 local L_2_ = game.Players.LocalPlayer:GetMouse()
 L_2_.KeyDown:Connect(
@@ -1110,7 +1125,7 @@ L_19_:NewToggle(
 	L_18_.Boxes = L_204_arg0
 end
 )
-L_6_:NewLabel("credits to flash.#0011 and evan (blood)")
+L_6_:NewLabel("credits to vanis and zone ")
 local L_20_ = L_4_:NewTab("Animation Changer")
 local L_21_ = L_20_:NewSection("Vanis.LOL")
 L_21_:NewButton(
